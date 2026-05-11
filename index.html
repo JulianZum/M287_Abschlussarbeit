@@ -1,80 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<meta charset="UTF-8">
-<title>SCHALTET AB SCHALTET ABABABABABABABABAB</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8" />
+  <title>Redbull</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+  <link rel="stylesheet" href="css/index.css" />
 
-<body>
-
+  <body>
     <!-- Navigation (Stays on Top) -->
     <div class="w3-top w3-bar w3-black">
-        <a href="index.html" class="w3-bar-item w3-button">Home</a>
-        <a href="html/derweg.html" class="w3-bar-item w3-button">Der Weg</a>
-        <a href="html/kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="html/derweg.html" class="w3-bar-item w3-button">Der Weg</a>
+      <a href="html/kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+    </div>
+
+    <!-- Hero -->
+    <div id="hero">
+      <h1 id="hero-title">Redbull Verleiht Flüüügel.</h1>
+      <img src="img/Bildschirmfoto%202026-05-11%20um%2011.07.30.png" id="hero-img" alt="Red Bull Cans" />
     </div>
 
     <!-- Start Content -->
     <div id="home" class="w3-content">
 
-        <!-- Slides -->
-        <img class="slides" src="img/Red-Bull-Summer-Edition-Juneberry-250ml.png" width="100%">
-        <img class="slides" src="img/AT_RBSUM_250_Single%20Unit_open_cold_ORIGINAL_HRES_2-845b81ce.jpg" width="100%">
-        <script>
-            w3.slideshow(".slides", 1500);
-        </script>
+      <!-- About -->
+      <div id="about" class="w3-container w3-padding-32">
+        <h1 class="w3-center">Redbull</h1>
+        <p>Nr.1 Energy Drink</p>
+      </div>
 
-        <!-- About -->
-        <div id="about" class="w3-container w3-padding-32">
-            <h1 class="w3-center">schaltet Ab</h1>
-            <p>schaltet ab ab ab ab ab</p>
+
+      <!-- Products -->
+      <div id="products" class="w3-container w3-padding-32">
+        <div class="product-row">
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Energy Drink</p>
+            <img src="img/red-bull-energy-drink.avif" alt="Energy Drink" />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Sugarfree</p>
+            <img src="img/red-bull-sugarfree.avif" alt="Sugarfree" />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Zero</p>
+            <img src="img/red-bull-zero-energy-drink.avif" alt="Zero" />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Blue Edition</p>
+            <img
+              src="img/red-bull-blue-edition-image.avif"
+              alt="Blue Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Green Edition</p>
+            <img
+              src="img/red-bull-green-edition-image.avif"
+              alt="Green Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Pink Edition</p>
+            <img
+              src="img/red-bull-pink-edition-image.avif"
+              alt="Pink Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />White Edition</p>
+            <img
+              src="img/red-bull-white-edition-image.avif"
+              alt="White Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Apricot Edition</p>
+            <img
+              src="img/red-bull-apricot-edition-image.avif"
+              alt="Apricot Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Glacier Edition</p>
+            <img
+              src="img/red-bull-glacier-edition-image.avif"
+              alt="Glacier Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Iced Edition</p>
+            <img src="img/red-bull-iced-edition.avif" alt="Iced Edition" />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Sea Blue Edition</p>
+            <img
+              src="img/red-bull-sea-blue-edition-image.avif"
+              alt="Sea Blue Edition"
+            />
+          </div>
+          <div class="product-card">
+            <p class="product-title">Red Bull<br />Summer Edition</p>
+            <img
+              src="img/red-bull-summer-edition-sugarfree.avif"
+              alt="Summer Edition Sugarfree"
+            />
+          </div>
         </div>
+      </div>
 
-        <!-- Members -->
-        <div id="members" class="w3-container w3-padding-32">
-            <h2 class="w3-center">Band Members</h2>
-            <div class="w3-row w3-center">
+      <!-- Contact -->
+      <div id="contact" class="w3-container w3-center w3-padding-32">
+        <h2 class="w3-wide">CONTACT</h2>
+        Chicago, US<br />
+        Phone: +00 151515<br />
+        Email: mail@mail.com<br />
+        <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
 
-                <div class="w3-third">
-                    <img src="img/10002289-red-bull-the-summer-edition-2021-dosendrachenfrucht-1.jpg" alt="Name1" style="width:60%">
-                </div>
+        <form action="/action_page.php" target="_blank">
+          <input
+            class="w3-input"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+          <input
+            class="w3-input"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+          <input
+            class="w3-input"
+            type="text"
+            placeholder="Message"
+            required
+            name="Message"
+          /><br />
+          <button class="w3-button w3-black" type="submit">SEND</button>
+        </form>
 
-                <div class="w3-third">
-                    <img src="img/Red%20Bull%20-%20Summer%20Edition%20White%20Peach%20250ml-grabandgo.png" alt="Name2" style="width:60%">
-                </div>
+        <br />
+        <img src="map.jpg" class="w3-image" style="width: 100%" />
+        <p class="w3-center w3-padding">
+          Powered by
+          <a
+            href="https://www.w3schools.com/w3css/default.asp"
+            title="W3.CSS"
+            target="_blank"
+            >w3.css</a
+          >
+        </p>
+      </div>
 
-                <div class="w3-third">
-                    <img src="img/AT_RBSUM_250_Single%20Unit_open_cold_ORIGINAL_HRES_2-845b81ce.jpg" alt="Name3" style="width:60%">
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Contact -->
-        <div id="contact" class="w3-container w3-center w3-padding-32">
-            <h2 class="w3-wide">CONTACT</h2>
-            Chicago, US<br>
-            Phone: +00 151515<br>
-            Email: mail@mail.com<br>
-            <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-
-            <form action="/action_page.php" target="_blank">
-                <input class="w3-input" type="text" placeholder="Name" required name="Name">
-                <input class="w3-input" type="text" placeholder="Email" required name="Email">
-                <input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
-                <button class="w3-button w3-black" type="submit">SEND</button>
-            </form>
-
-            <br>
-            <img src="map.jpg" class="w3-image" style="width:100%">
-            <p class="w3-center w3-padding">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
-                    title="W3.CSS" target="_blank">w3.css</a></p>
-        </div>
-
-        <!-- End Content -->
+      <!-- End Content -->
     </div>
-
-</body>
-
+  </body>
 </html>
