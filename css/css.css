@@ -1,0 +1,123 @@
+/* Navigation */
+.w3-top.w3-bar.w3-black {
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+}
+
+.w3-top.w3-bar.w3-black a {
+    padding: 14px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.w3-top.w3-bar.w3-black a:hover {
+    background-color: #333;
+}
+
+/* Main content wrapper */
+#home {
+    max-width: 1200px;
+    margin-top: 46px;
+}
+
+/* Slideshow */
+.slides {
+    display: block;
+}
+
+/* About section */
+#about {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#about h1 {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+#about p {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Members section */
+#members {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#members h2 {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+#members img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact section */
+#contact {
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-family: Arial, sans-serif;
+    letter-spacing: 6px;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+#contact p,
+#contact br {
+    font-family: Georgia, serif;
+    color: #555;
+    line-height: 2;
+}
+
+/* Contact form */
+form {
+    max-width: 500px;
+    margin: 16px auto 0;
+    text-align: left;
+}
+
+form .w3-input {
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 0.95rem;
+}
+
+form .w3-button.w3-black {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form .w3-button.w3-black:hover {
+    background-color: #333;
+}
+
+/* Map image */
+.w3-image {
+    display: block;
+    margin-top: 24px;
+}
