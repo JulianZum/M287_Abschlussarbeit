@@ -6,34 +6,45 @@
     <title>Kontakt</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="../css/Kontakt.css">
+    <!-- <link rel="stylesheet" href="../css/Kontakt.css"> -->
     <link rel="icon" href="../img/redbull_favicon.png">
 </head>
 
-<body>
+<body class="w3-light-grey">
 
     <!-- Navigation -->
-    <div class="w3-top w3-bar w3-black">
-        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
-        <a href="Produkte.html" class="w3-bar-item w3-button">Produkte</a>
-        <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card-4">
+            <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="Produkte.html" class="w3-bar-item w3-button">Produkte</a>
+            <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+        </div>
     </div>
 
     <!-- Inhalt -->
-    <div class="w3-container kontakt-container">
+    <div class="w3-content w3-padding-64" style="max-width:1100px">
+
+        <div class="w3-container w3-padding-16">
+            <h1 class="w3-center">Kontakt</h1>
+            <p class="w3-center w3-large">Unser Team ist gerne für dich da.</p>
+        </div>
 
         <div class="w3-row-padding">
 
-            <!-- Person 1 -->
+            <!-- Person 1 mit Modal -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card" onclick="document.getElementById('kontaktModal').style.display='block'">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow w3-button w3-padding-0"
+                     onclick="document.getElementById('kontaktModal').style.display='block'">
 
-                    <div class="image-wrapper">
-                        <img src="../img/gion_und_bernd.png" alt="Gion Oberli" loading="lazy">
-                        <div class="name-overlay">Gion Oberli</div>
+                    <div class="w3-display-container">
+                        <img src="../img/gion_und_bernd.png" alt="Gion Oberli" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Gion Oberli</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 123 45 67</p>
                         <p>gion.oberli@example.ch</p>
                         <p>Buchhaltung</p>
@@ -44,14 +55,17 @@
 
             <!-- Person 2 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Sebastiano_Fabiano.JPG" alt="Sebastiano Fabiano" loading="lazy">
-                        <div class="name-overlay">Sebastiano Fabiano</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Sebastiano_Fabiano.JPG" alt="Sebastiano Fabiano" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Sebastiano Fabiano</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 987 65 43</p>
                         <p>sebastiano.fabiano@example.ch</p>
                         <p>Verkauf</p>
@@ -62,14 +76,17 @@
 
             <!-- Person 3 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -80,14 +97,17 @@
 
             <!-- Person 4 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Gion_Oberli.png" alt="Gion Oberli" loading="lazy">
-                        <div class="name-overlay">Noah Steiner</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Gion_Oberli.png" alt="Noah Steiner" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Noah Steiner</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 222 33 44</p>
                         <p>noah.steiner@example.ch</p>
                         <p>Kundendienst</p>
@@ -98,14 +118,17 @@
 
             <!-- Person 5 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -116,14 +139,17 @@
 
             <!-- Person 6 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -134,14 +160,17 @@
 
             <!-- Person 7 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -152,14 +181,17 @@
 
             <!-- Person 8 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -170,14 +202,17 @@
 
             <!-- Person 9 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -188,14 +223,17 @@
 
             <!-- Person 10 -->
             <div class="w3-col s6 w3-margin-bottom">
-                <div class="w3-card-4 kontakt-card">
+                <div class="w3-card-4 w3-white w3-round-large w3-hover-shadow">
 
-                    <div class="image-wrapper">
-                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" loading="lazy">
-                        <div class="name-overlay">Bernd Das Brot</div>
+                    <div class="w3-display-container">
+                        <img src="../img/Bernd_Das_Brot.avif" alt="Bernd Das Brot" class="w3-image w3-round-large" loading="lazy">
+
+                        <div class="w3-display-bottomleft w3-black w3-opacity w3-padding">
+                            <strong>Bernd Das Brot</strong>
+                        </div>
                     </div>
 
-                    <div class="kontakt-info">
+                    <div class="w3-container w3-center w3-padding">
                         <p>+41 79 456 78 90</p>
                         <p>bernd.das.brot@example.ch</p>
                         <p>Support</p>
@@ -208,31 +246,31 @@
 
     </div>
 
-<!-- Modal Window -->
-<div id="kontaktModal" class="w3-modal">
-    <div class="w3-modal-content w3-card-4 modal-box">
+    <!-- Modal Window -->
+    <div id="kontaktModal" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-round-large w3-animate-top">
 
-        <header class="w3-container w3-black">
-            <span onclick="document.getElementById('kontaktModal').style.display='none'"
-                  class="w3-button w3-display-topright">&times;</span>
-            <h2>Gion Oberli</h2>
-        </header>
+            <header class="w3-container w3-black">
+                <span onclick="document.getElementById('kontaktModal').style.display='none'"
+                      class="w3-button w3-display-topright">&times;</span>
+                <h2>Gion Oberli</h2>
+            </header>
 
-        <div class="w3-container modal-content">
-            <img src="../img/gion_und_bernd.png" alt="Gion Oberli" class="modal-img">
+            <div class="w3-container w3-center w3-padding-24">
+                <img src="../img/gion_und_bernd.png" alt="Gion Oberli" class="w3-image w3-round-large">
 
-            <p><strong>Telefon:</strong> +41 79 123 45 67</p>
-            <p><strong>E-Mail:</strong> gion.oberli@example.ch</p>
-            <p><strong>Abteilung:</strong> Buchhaltung</p>
+                <p><strong>Telefon:</strong> +41 79 123 45 67</p>
+                <p><strong>E-Mail:</strong> gion.oberli@example.ch</p>
+                <p><strong>Abteilung:</strong> Buchhaltung</p>
 
-            <p>
-                Gion Oberli ist in der Buchhaltung tätig und kümmert sich um Rechnungen,
-                Zahlen und organisatorische Aufgaben.
-            </p>
+                <p>
+                    Gion Oberli ist in der Buchhaltung tätig und kümmert sich um Rechnungen,
+                    Zahlen und organisatorische Aufgaben.
+                </p>
+            </div>
+
         </div>
-
     </div>
-</div>
 
 </body>
 </html>
